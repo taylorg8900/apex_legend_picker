@@ -18,7 +18,7 @@ Examples of what I want output to look like for running this program:
 src/picker.py
 Error: must provide additional argument
 Example of usage: src/picker.py any | assault | skirmisher | recon | support | defense
-
+```
 ```
 src/picker.py any
 Fuse!
