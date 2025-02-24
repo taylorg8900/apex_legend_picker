@@ -1,4 +1,4 @@
-# purpose
+# purpose of this program
 
 sometimes while playing apex, someone has the idea of picking a random character out of the available ones. That is kind
 of annoying to do, because you have to count out how many there are, go find a random number generator, and then count up
