@@ -45,7 +45,7 @@ def randomness_test(list, amount):
 
 
 if len(sys.argv) < 2:
-	print("\nError: Must provide additional argument!\nExample of usage: src/picker.py any | assault | skirmisher | recon | support | controller\n", end = "")
+	print("\nError: Must provide additional argument!\nExample of usage: python src/picker.py any | assault | skirmisher | recon | support | controller | mains\n", end = "")
 else:
 	if "any" in sys.argv: pick(legends)
 	elif "assault" in sys.argv: pick(legends[0:5])
@@ -53,6 +53,12 @@ else:
 	elif "recon" in sys.argv: pick(legends[11:16])
 	elif "support" in sys.argv: pick(legends[16:22])
 	elif "controller" in sys.argv: pick(legends[22:])
+	elif "mains" in sys.argv: pick([
+		"Bangalore",
+		"Fuse",
+		"crypto",
+		"newcastle",
+		"wattson"])
 	elif "test" in sys.argv: randomness_test(legends[0:5], 100_000)
 	else:
 		sys.quit()
